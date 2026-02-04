@@ -1,29 +1,22 @@
-# AirQualityPrediction
-🌍 Air Quality Prediction Web App
-
-This project is a web-based application that shows and predicts air quality using real-time environmental data.
-It helps users check pollution levels in different cities and understand how air quality affects health.
-
-The project is built using basic web technologies and works directly in the browser.
-
-🚀 Features
-
-Search air quality by city
-
-Displays AQI (Air Quality Index)
-
-Shows pollution level status (Good, Moderate, Poor, etc.)
-
-Simple and user-friendly interface
-
-Uses live data from an API
-
 🛠️ Technologies Used
+Python – Core programming language
+Pandas, NumPy – Data cleaning and analysis
+Matplotlib, Seaborn – Data visualization
+Scikit-learn – Machine learning model implementation
 
-HTML
+📊 Dataset
+The project utilizes an air quality dataset containing important pollutants such as:
+ PM2.5,PM10,NO₂,SO₂,CO
 
-CSS
+ ⚙️ System Architecture
+ Input Data → Data Preprocessing → ML Model → AQI Prediction → Output
 
-JavaScript
+▶️ How to Run the Project
+pip install -r requirements.txt
+python app.py
 
-OpenWeather / Air Quality API
+🚀 Future Scope
+Real-time AQI prediction
+API integration for live air quality data
+Mobile application development
+Improve model accuracy using advanced algorithms
