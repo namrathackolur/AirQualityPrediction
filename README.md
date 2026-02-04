@@ -1,11 +1,3 @@
-# AirAware – Smart Air Quality Prediction System
-
-## Problem Statement
-Air pollution poses a serious threat to human health and the environment. Predicting air quality in advance helps individuals take precautionary measures and supports authorities in making informed decisions.
-
-## Objective
-The objective of this project is to develop a smart system that predicts air quality levels using machine learning techniques based on historical environmental data.
-
 ## Technologies Used
 - **Python** – Core programming language  
 - **Pandas, NumPy** – Data cleaning and analysis  
